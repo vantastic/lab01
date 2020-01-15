@@ -8,6 +8,9 @@ int main(){
         cout<<"Enter number of rows and columns:"<<endl;
         cin>>r>>c;
         cc=c;
+        
+        if(r == 0 || c == 0)
+            break;
 
         for(r;r>0;r--)
         {
