@@ -11,12 +11,7 @@ int main(){
         if (n==-1){
             return 0;
         }
-        if (n==1){
-            cout<<"The approximate value of pi using 1 term is: ";
-        }else{
-            cout<<"The approximate value of pi using "<<n<<" terms is: ";
-        }
-
+        cout<<"The approximate value of pi using "<<n<<" terms is: ";
         for(n;n>=0;n--)
         {
             pi += 4*pow(-1,n)/(2*n+1);
